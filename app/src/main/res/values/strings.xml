@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Chrissi Island</string>
+    <string name="welcome_title">Are you ready for an adventure?</string>
+    <string name="welcome_message">Do you want to feel for a while like a modern castaway, stranded on a desert island?</string>
+    <string name="welcome_button">Yes</string>
+    <string name="chrissi1">Chrissi is a secluded, isolated, almost tropical island on the most southern end of crete.</string>
+    <string name="chrissi2">Due to its unparallel beauty and it\'s unique ecosystem, it is under the protection of Natura 2000
+        Networking Programme, as a widlife refuge and an "area of intense natural beauty".</string>
+
+    <string name="dont1">Hike outside the designated paths and beaches</string>
+    <string name="dont2">Collect rocks, fossils, shells and ancient finds</string>
+    <string name="dont3">Collect plant or do any animal cathcing</string>
+    <string name="dont4">Start a fire or smoke around the bushes and woodlands</string>
 </resources>
