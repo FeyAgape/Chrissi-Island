@@ -1,13 +1,144 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.android.chrissiisland.WelcomeFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
-</FrameLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/scrim"
+        android:orientation="vertical">
+
+
+        <!-- Introduction information about the app. -->
+
+
+        <TextView
+            style="@style/Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_margin="@dimen/medium"
+            android:text="@string/welcome0"
+            />
+
+        <TextView
+            style="@style/Title_Pages2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/small"
+            android:layout_marginRight="@dimen/small"
+            android:layout_marginBottom="@dimen/mini"
+            android:layout_marginTop="120dp"
+            android:text="@string/welcome1"
+             />
+
+        <TextView
+            style="@style/Title_Pages2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/small"
+            android:layout_marginRight="@dimen/small"
+            android:text="@string/welcome2"
+            />
+
+        <!-- images that show the island. -->
+
+        <TextView
+            style="@style/Title_Pages"
+            android:layout_marginLeft="@dimen/small"
+            android:layout_marginRight="@dimen/small"
+            android:layout_marginTop="@dimen/xsmall"
+            android:text="@string/welcome_section" />
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/xsmall">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:layout_marginLeft="@dimen/mini"
+                android:layout_marginRight="@dimen/mini"
+                android:background="@color/colorBackground1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="@dimen/xsmall"
+                    android:src="@drawable/one" />
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="@dimen/xsmall"
+                    android:src="@drawable/zero" />
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="@dimen/xsmall"
+                    android:src="@drawable/two" />
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="@dimen/xsmall"
+                    android:src="@drawable/three" />
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="@dimen/xsmall"
+                    android:src="@drawable/four" />
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="@dimen/xsmall"
+                    android:src="@drawable/five" />
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="@dimen/xsmall"
+                    android:src="@drawable/six" />
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="@dimen/xsmall"
+                    android:src="@drawable/seven" />
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="@dimen/xsmall"
+                    android:src="@drawable/eight" />
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="@dimen/xsmall"
+                    android:src="@drawable/nine" />
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="@dimen/xsmall"
+                    android:src="@drawable/eleven" />
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+</ScrollView>

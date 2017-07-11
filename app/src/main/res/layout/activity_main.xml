@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/back1"
     tools:context="com.example.android.chrissiisland.MainActivity">
 
     <!-- Welcome Screen -->
@@ -18,33 +19,44 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/scrim" />
+        android:background="@drawable/scrim_one" />
 
 
     <TextView
         android:id="@+id/intro"
         style="@style/Title"
         android:gravity="center_horizontal"
-        android:textSize="32sp"
         android:layout_margin="@dimen/medium"
         android:elevation="@dimen/small"
         android:text="@string/welcome_title"
-        android:textColor="@color/colorPrimaryDark"
-        android:background="@color/colorBackground"
-        android:layout_above="@+id/welcome"
+        android:textColor="@color/colorWhite"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
-    <!-- Welcome button -->
+    <TextView
+        android:id="@+id/description"
+        style="@style/Description"
+        android:gravity="center_horizontal"
+        android:text="@string/welcome_message"
+        android:textColor="@color/colorWhite"
+        android:layout_margin="@dimen/medium"
+        android:layout_above="@+id/frameLayout"
+        android:layout_alignStart="@+id/intro" />
 
+    <!-- Welcome button -->
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/large"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:id="@+id/frameLayout">
     <Button
         android:id="@+id/welcome"
         style="@style/WelcomeButton"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="@dimen/large"
-        android:elevation="@dimen/medium"
         android:text="@string/welcome_button" />
+    </FrameLayout>
 
 </RelativeLayout>
 

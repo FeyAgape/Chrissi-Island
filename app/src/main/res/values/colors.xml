@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#00cbc4</color>
+    <color name="colorPrimaryDark">#009994</color>
+    <color name="colorAccent">#62fff7</color>
+
+    <color name="color_about">#8FBFE0</color>
+    <color name="color_travel">#7C77B9</color>
+    <color name="color_highlights">#1D8A99</color>
+    <color name="color_rules">#0BC9CD</color>
+
 
     <color name="colorWhite">#FFF</color>
     <color name="colorBlack">#000</color>
