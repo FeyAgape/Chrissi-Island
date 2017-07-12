@@ -61,4 +61,4 @@ public class AboutFragment extends Fragment {
         return rootView;
     }
 
-                }
+}

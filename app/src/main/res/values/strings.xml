@@ -17,7 +17,7 @@
     <string name="welcome_button">Yes</string>
 
     <!-- Welcome fragment -->
-    <string name="welcome0">Then welcome to Chrissi Island.</string>
+    <string name="welcome0">Then visit Chrissi Island.</string>
     <string name="welcome1">Chrissi Island, also known as Chryssi or Gaidouronnisi, is a secluded, isolated, almost tropical island on the most southern end of Crete.</string>
     <string name="welcome2">Chrissi is a piece of paradise on Earth. It is the southernmost natural park of Europe, and a gem of the Mediterranean.</string>
     <string name="welcome_section">Chrissi Island.</string>
@@ -40,12 +40,18 @@
     <string name="about14">There a wells and carved tombs on the south and southwest of Agios Nikolaos, with the biggest tomb dating back to the Roman era.</string>
     <string name="about15">Kataprosopo faces the Mikronisi islet, on the east of Chrissi, and is a habitat for thousands of birds.</string>
 
-
-
-
     <!-- Travel fragment -->
 
-
+    <string name="travels0">To visit Chrissi you can take one of the boats that make the route from Lerapetra</string>
+    <string name="travels1">Chrissi Daily Cruises, organises daily cruises from the port of Ierapetra to the island of Chrissi".</string>
+    <string name="travels2">Chrissi Daily Cruises depart daily from May to October, departing from 10.00am until 13.00pm.</string>
+    <string name="travels3">The Municipality of Ierapetra collects 1 euro from every ticket, as an administrative fee for passengers over 4 years old visiting the island of Chrissi.</string>
+    <string name="travels4">There is a free parking area at the port of Lerapetra.</string>
+    <string name="travels5">The trip from the port of Lerapetra to the exotic Chrissi lasts about an hour, sometimes accompanied by seagulls and dolphins.</string>
+    <string name="travels6">The self-service bar of the ship shall remain open throughout the cruise, offering light meals, with salads, wine, soft drinks, coffee, ice creams, etc.</string>
+    <string name="travels7">Tickets can be purchase from varying tour agency across Crete and local touring office in Lerapetra.</string>
+    <string name="travels8">The ticket price includes 24% VAT, all legal fees, and a written guided tour in your language.</string>
+    <string name="travels9">Your local touring office will have details for transfers and prices if you are coming from areas outside the port of Lerapetra.</string>
     <!-- Highlights fragment -->
 
 
