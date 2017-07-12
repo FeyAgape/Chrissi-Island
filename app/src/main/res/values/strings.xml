@@ -6,7 +6,7 @@
 
     <!-- Fragments names -->
     <string name="frag_one">Welcome</string>
-    <string name="frag_two">About</string>
+    <string name="frag_two">Island Tour</string>
     <string name="frag_three">Travel</string>
     <string name="frag_four">Highlights</string>
     <string name="frag_five">Rules</string>
@@ -41,7 +41,6 @@
     <string name="about15">Kataprosopo faces the Mikronisi islet, on the east of Chrissi, and is a habitat for thousands of birds.</string>
 
     <!-- Travel fragment -->
-
     <string name="travels0">To visit Chrissi you can take one of the boats that make the route from Lerapetra</string>
     <string name="travels1">Chrissi Daily Cruises, organises daily cruises from the port of Ierapetra to the island of Chrissi".</string>
     <string name="travels2">Chrissi Daily Cruises depart daily from May to October, departing from 10.00am until 13.00pm.</string>
@@ -51,16 +50,25 @@
     <string name="travels6">The self-service bar of the ship shall remain open throughout the cruise, offering light meals, with salads, wine, soft drinks, coffee, ice creams, etc.</string>
     <string name="travels7">Tickets can be purchase from varying tour agency across Crete and local touring office in Lerapetra.</string>
     <string name="travels8">The ticket price includes 24% VAT, all legal fees, and a written guided tour in your language.</string>
-    <string name="travels9">Your local touring office will have details for transfers and prices if you are coming from areas outside the port of Lerapetra.</string>
-    <!-- Highlights fragment -->
 
+    <!-- Highlights fragment -->
+    <string name="highlights0">There\'s a eatery place on the island where you can get hot food and drinks</string>
+    <string name="highlights1">Umbrellas and sunbeds are also available on the island for a fee</string>
+    <string name="highlights2">The Municipality collection of 1 euro contribute towards protecting the island</string>
+    <string name="highlights3">There are vendors where you can buy items made from fossils found on the island</string>
+    <string name="highlights4">Portable toilets are also available on the island for free, please make use of it</string>
+    <string name="highlights5">Hammocks can be found in some area of the island, use accordingly</string>
+    <string name="highlights6">Local touring offices will have details for transfers if you are from areas outside Lerapetra</string>
+    <string name="highlights7">Bin\'s are provided on the island, empty all rubbish there and not on the island</string>
 
     <!-- Rules fragment -->
-    <string name="dont1">Hike outside the designated paths and beaches</string>
-    <string name="dont2">Collect rocks, fossils, shells and ancient finds</string>
-    <string name="dont3">Collect plant or do any animal cathcing</string>
-    <string name="dont4">Start a fire or smoke around the bushes and woodlands</string>
+    <string name="rules0">Smoking around bushes and woodlands are prohibited or starting a fire</string>
+    <string name="rules1">Hiking outside the designated paths and beaches are prohibited</string>
+    <string name="rules2">Collection of rocks, fossils, shells and ancient finds are prohibited</string>
+    <string name="rules3">Collection of plants or any animal catching are prohibited</string>
+    <string name="rules4">Free camping on the island in the evening and overnight are also prohibited</string>
+    <string name="rules5">Any kind of pollution are prohibited, bins and toilets are provided</string>
+    <string name="rules6">Make sure you are back at your boat 10 at least 10 minutes before departure</string>
+    <string name="rules7">Make sure you don\'t swim out too far in the waters into the ocean</string>
 
-    <!-- placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -37,7 +37,6 @@ public class TravelsFragment extends Fragment {
         words.add(new Word(R.string.travels6));
         words.add(new Word(R.string.travels7));
         words.add(new Word(R.string.travels8));
-        words.add(new Word(R.string.travels9));
 
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
