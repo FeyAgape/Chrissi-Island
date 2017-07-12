@@ -10,9 +10,6 @@ public class Word {
     /** String resource ID for the main information about Chrissi */
     private int mMainInformationId;
 
-    /** String resource ID for the Miwok translation of the word */
-    private int mExtraInformationId;
-
     /** Image resource ID for the word */
     private int mImageResourceId = NO_IMAGE_PROVIDED;
 
@@ -29,31 +26,16 @@ public class Word {
         mMainInformationId = mainInformationId;
     }
 
-
-    /**
-     * Create a new Word object.
-     * Constructor two passed two object.
-     *
-     * @param mainInformationId is the string resource ID for main information
-     * @param extraInformationId is the string resource Id for extra information
-     */
-    public Word(int mainInformationId, int extraInformationId) {
-        mMainInformationId = mainInformationId;
-        mExtraInformationId = extraInformationId;
-    }
-
     /**
      * Create a new Word object
      * Constructor three passes 3 objects.
      *
      * @param mainInformationId is the string resource ID for main information
-     * @param extraInformationId is the string resource Id for extra information
      * @param imageResourceId is the drawable resource ID for the image associated with the word
 
      */
-    public Word(int mainInformationId, int extraInformationId, int imageResourceId) {
+    public Word(int mainInformationId, int imageResourceId) {
         mMainInformationId = mainInformationId;
-        mExtraInformationId = extraInformationId;
         mImageResourceId = imageResourceId;
     }
 
@@ -64,12 +46,6 @@ public class Word {
         return mMainInformationId;
     }
 
-    /**
-     * Get the string resource ID for the Miwok translation of the word.
-     */
-    public int getExtraInformationId() {
-        return mExtraInformationId;
-    }
 
     /**
      * Return the image resource ID of the word.

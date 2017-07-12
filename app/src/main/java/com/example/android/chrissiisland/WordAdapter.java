@@ -49,11 +49,6 @@ public class WordAdapter extends ArrayAdapter<Word> {
         // Get the main information and set this text on the main TextView.
         mainTextView.setText(currentWord.getMainInformationId());
 
-        // Find the TextView in the list_item.xml layout with the ID extra_text_view.
-        TextView extraTextView = (TextView) listItemView.findViewById(R.id.extra_text_view);
-        // Get the extra infromation and set this text on the extra TextView.
-        extraTextView.setText(currentWord.getExtraInformationId());
-
 
         // Find the ImageView in the list_item.xml layout with the ID image.
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
