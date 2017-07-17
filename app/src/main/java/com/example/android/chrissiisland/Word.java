@@ -40,7 +40,7 @@ public class Word {
     }
 
     /**
-     * Get the string resource ID for the default translation of the word.
+     * Get the string resource ID for the main information.
      */
     public int getMainInformationId() {
         return mMainInformationId;
