@@ -1,11 +1,11 @@
 package com.example.android.chrissiisland;
 
 /**
- * {@link Word} represents information about Chrissi.
+ * {@link Location} represents information about Chrissi.
  * It contains resource IDs for the main information, extra information, and
  * optional image file.
  */
-public class Word {
+public class Location {
 
     /** String resource ID for the main information about Chrissi */
     private int mMainInformationId;
@@ -17,24 +17,24 @@ public class Word {
     private static final int NO_IMAGE_PROVIDED = -1;
 
     /**
-     * Create a new Word object
+     * Create a new Location object
      * Constructor one passes just one object.
      *
      * @param mainInformationId is the string resource ID for main information
      */
-    public Word(int mainInformationId) {
+    public Location(int mainInformationId) {
         mMainInformationId = mainInformationId;
     }
 
     /**
-     * Create a new Word object
+     * Create a new Location object
      * Constructor three passes 3 objects.
      *
      * @param mainInformationId is the string resource ID for main information
      * @param imageResourceId is the drawable resource ID for the image associated with the word
 
      */
-    public Word(int mainInformationId, int imageResourceId) {
+    public Location(int mainInformationId, int imageResourceId) {
         mMainInformationId = mainInformationId;
         mImageResourceId = imageResourceId;
     }

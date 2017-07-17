@@ -10,7 +10,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 /**
  * {@link FragmentAdapter} is a {@link FragmentPagerAdapter} that can provide the layout for
- * each list item based on a data source which is a list of {@link Word} objects.
+ * each list item based on a data source which is a list of {@link Location} objects.
  */
 public class FragmentAdapter extends FragmentPagerAdapter {
 

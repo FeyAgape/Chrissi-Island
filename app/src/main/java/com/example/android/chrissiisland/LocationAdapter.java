@@ -12,23 +12,23 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 /**
- * {@link WordAdapter} is an {@link ArrayAdapter} that can provide the layout for each list item
- * based on a data source, which is a list of {@link Word} objects.
+ * {@link LocationAdapter} is an {@link ArrayAdapter} that can provide the layout for each list item
+ * based on a data source, which is a list of {@link Location} objects.
  */
-public class WordAdapter extends ArrayAdapter<Word> {
+public class LocationAdapter extends ArrayAdapter<Location> {
 
     /** Resource ID for the background color */
     private int mColorResourceId;
 
     /**
-     * Create a new {@link WordAdapter} object.
+     * Create a new {@link LocationAdapter} object.
      *
      * @param context is the current context (i.e. Activity) that the adapter is being created in.
-     * @param words is the list of {@link Word}s to be displayed.
+     * @param locations is the list of {@link Location}s to be displayed.
      * @param colorResourceId is the resource ID for the background color
      */
-    public WordAdapter(Context context, ArrayList<Word> words, int colorResourceId) {
-        super(context, 0, words);
+    public LocationAdapter(Context context, ArrayList<Location> locations, int colorResourceId) {
+        super(context, 0, locations);
         mColorResourceId = colorResourceId;
     }
 
@@ -41,21 +41,21 @@ public class WordAdapter extends ArrayAdapter<Word> {
                     R.layout.list_item, parent, false);
         }
 
-        // Get the {@link Word} object located at this position in the list
-        Word currentWord = getItem(position);
+        // Get the {@link Location} object located at this position in the list
+        Location currentLocation = getItem(position);
 
         // Find the TextView in the list_item.xml layout with the ID main_text_view.
         TextView mainTextView = (TextView) listItemView.findViewById(R.id.main_text_view);
         // Get the main information and set this text on the main TextView.
-        mainTextView.setText(currentWord.getMainInformationId());
+        mainTextView.setText(currentLocation.getMainInformationId());
 
 
         // Find the ImageView in the list_item.xml layout with the ID image.
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
         // Check if an image is provided for this word or not
-        if (currentWord.hasImage()) {
+        if (currentLocation.hasImage()) {
             // If an image is available, display the provided image based on the resource ID
-            imageView.setImageResource(currentWord.getImageResourceId());
+            imageView.setImageResource(currentLocation.getImageResourceId());
             // Make sure the view is visible
             imageView.setVisibility(View.VISIBLE);
         } else {
